@@ -24,5 +24,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('post/<slug:slug>/', post),
     # TODO: Доделать функцию вывода
-    # path('category/<slug:slug>/', get_category),
+     path('category/<slug:slug>/', get_category),
 ]
