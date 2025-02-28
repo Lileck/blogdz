@@ -35,7 +35,6 @@ def post(request, slug):
 
 
 # TODO: Доделать функцию вывода
-# def get_category(request, slug):
 def get_category(request, slug):
     category = get_object_or_404(Category, slug=slug)
     posts = category.post_set.all()
